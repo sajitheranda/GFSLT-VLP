@@ -60,4 +60,3 @@ tqdm
 wandb 
 hpargparse
 sentence-transformers==2.2.2
-"numpy<2" --upgrade --force-reinstall
