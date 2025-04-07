@@ -33,7 +33,7 @@
 
 torch
 torchaudio
-torchvision==0.16.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+torchvision==0.18.1 --extra-index-url https://download.pytorch.org/whl/cu121
 datasets
 hpman
 lmdb
