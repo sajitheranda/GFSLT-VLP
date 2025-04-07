@@ -9,7 +9,7 @@ training:
   wandb: disabled # online or disabled
   scale_embedding: False
 model:
-  tokenizer: /homedata/bjzhou/codes/VLP/GFSLT-VLP/pretrain_models/MBart_trimmed
-  transformer:  /homedata/bjzhou/codes/VLP/GFSLT-VLP/pretrain_models/MBart_trimmed
-  visual_encoder: /homedata/bjzhou/codes/VLP/GFSLT-VLP/pretrain_models/mytran
+  tokenizer: facebook/mbart-large-50
+  transformer: facebook/mbart-large-50
+  visual_encoder: google/vit-base-patch16-224-in21k  # Free Vision Transformer model
   sign_proj: True
