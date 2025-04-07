@@ -31,32 +31,32 @@
 # vidaug @ git+https://github.com/okankop/vidaug@1c1ddf2640fe4a9171267d64ae5e3bd70c24d54a
 # wandb==0.12.21
 
-torch 
-torchaudio  
-torchvision==0.16.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+torch
+torchaudio
+torchvision==0.16.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 datasets
 hpman
 lmdb
-vidaug 
-loguru 
-lxml 
-matplotlib  
-notebook 
-omegaconf 
-opencv-python 
-pandas 
-pathlib 
-reFILE 
-sacrebleu 
-scikit-image 
-scikit-learn 
+vidaug
+loguru
+lxml
+matplotlib
+notebook
+omegaconf
+opencv-python
+pandas
+pathlib
+refile
+sacrebleu
+scikit-image
+scikit-learn
 scipy
-seaborn 
-sentencepiece 
-smart-open 
-timm 
-tokenizers 
-tqdm 
-wandb 
+seaborn
+sentencepiece
+smart-open
+timm
+tokenizers
+tqdm
+wandb
 hpargparse
 sentence-transformers==2.2.2
