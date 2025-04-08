@@ -60,3 +60,4 @@ tqdm
 wandb
 hpargparse
 sentence-transformers==2.2.2
+transformers==4.21.2
